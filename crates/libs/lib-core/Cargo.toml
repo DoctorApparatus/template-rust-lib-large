@@ -1,0 +1,12 @@
+[package]
+name = "lib-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "*"
+educe = "*"
+enum-display = "*"
+serde = { version = "*", features = ["derive"] }
+thiserror = "*"
+tokio = { version = "*", features = ["full", "macros", "rt-multi-thread"] }
